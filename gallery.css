@@ -1,0 +1,15 @@
+
+.container{
+    margin: 2rem;
+    padding: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+    .image{
+        width: 200px;
+        height:300px;
+        display: block;
+        padding:12px;
+        margin: 10px;
+    }

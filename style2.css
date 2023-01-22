@@ -1,0 +1,49 @@
+body{
+	margin:auto;
+	padding: 0;
+	background:linear-gradient(aquamarine,rgb(94, 158, 158));
+	height: 100vh;
+	width: 350px;
+	
+}
+.table{
+	display: block;
+	margin-left: 8rem;
+}
+.send{
+	padding: 2rem;
+	padding-left: 2rem;
+	cursor: pointer;
+	transition: 0.5s;
+	display: flex;
+	justify-content: space-between;
+}
+.send :hover{
+	transform: scale(1.1);
+	
+	cursor: pointer;
+}
+
+
+.boxmodel{
+	background-image:linear-gradient(rgb(74, 74, 89),rgb(58, 22, 22));
+	box-shadow: 7px 5px 5px 5px #faf8f8 inset;
+    border-radius:10px;
+	
+}
+p{
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial;
+	flex-wrap: wrap;
+	transition: 0.5s;
+}
+p:hover{
+	transform: scale(1.1);
+	color: blue;
+	cursor: pointer;
+}
+span{
+	font-size: 2rem;
+}
